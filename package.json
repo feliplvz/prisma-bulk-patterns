@@ -1,0 +1,20 @@
+{
+  "name": "prisma-bulk-patterns",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Patterns for high-volume writes with Prisma + Postgres on serverless runtimes",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "example:upsert": "tsx examples/bulk-upsert.ts"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "prisma": "^5.22.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  }
+}
